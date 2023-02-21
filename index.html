@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>StarBucks</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <img src="img/logo.png" alt="Logo" />
+      <div class="navbar">
+        <i class="fa-solid fa-bars"></i>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <section class="home" id="home">
+        <div class="container">
+          <div class="aside">
+            <h1>It's not just Coffee</h1>
+            <h1>It's <span>Starbucks</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facere sed nesciunt totam porro officiis ex corporis, voluptate sunt eos quaerat? Perferendis, dignissimos? Soluta, eveniet?</p>
+            <button class="btn">Learn More</button>
+          </div>
+          <img src="img/img1.png" alt="1" class="thumb" />
+          <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <div class="circle"></div>
+          <div class="thumbnail">
+            <img src="img/thumb1.png" alt="thumb1" onclick="ubah('img/img1.png')" class="greenTh" />
+            <img src="img/thumb2.png" alt="thumb2" onclick="ubah('img/img2.png')" class="pinkTh" />
+            <img src="img/thumb3.png" alt="thumb3" onclick="ubah('img/img3.png')" class="redTh" />
+          </div>
+        </div>
+      </section>
+      <section id="menu" class="menu">
+        <div class="menuContainer">
+          <h1>Our <span>Menu</span></h1>
+          <div class="boxContainer">
+            <div class="box">
+              <img src="img/menu1.jpg" alt="menu1" />
+              <h2>Ice Cream</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit voluptatum totam veritatis deleniti aut.</p>
+              <p class="harga">Rp10K</p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <button class="btn">Order Now</button>
+            </div>
+            <div class="box">
+              <img src="img/menu6.jpg" alt="menu6" />
+              <h2>Pizza</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit voluptatum totam veritatis deleniti aut.</p>
+              <p class="harga">Rp22K</p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <button class="btn">Order Now</button>
+            </div>
+            <div class="box">
+              <img src="img/menu2.jpg" alt="menu1" />
+              <h2>Ice Cream</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit voluptatum totam veritatis deleniti aut.</p>
+              <p class="harga">Rp10K</p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <button class="btn">Order Now</button>
+            </div>
+            <div class="box">
+              <img src="img/menu3.jpg" alt="menu1" />
+              <h2>SandWich</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit voluptatum totam veritatis deleniti aut.</p>
+              <p class="harga">Rp14K</p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <button class="btn">Order Now</button>
+            </div>
+            <div class="box">
+              <img src="img/menu4.jpg" alt="menu1" />
+              <h2>Bread</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit voluptatum totam veritatis deleniti aut.</p>
+              <p class="harga">Rp12K</p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <button class="btn">Order Now</button>
+            </div>
+            <div class="box">
+              <img src="img/menu5.jpg" alt="menu1" />
+              <h2>Cake</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit voluptatum totam veritatis deleniti aut.</p>
+              <p class="harga">Rp10K</p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <button class="btn">Order Now</button>
+            </div>
+            <div class="box">
+              <img src="img/menu7.jpg" alt="menu7" />
+              <h2>Cake Tart</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit voluptatum totam veritatis deleniti aut.</p>
+              <p class="harga">Rp15K</p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <button class="btn">Order Now</button>
+            </div>
+            <div class="box">
+              <img src="img/menu8.jpg" alt="menu1" />
+              <h2>Macaroni</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit voluptatum totam veritatis deleniti aut.</p>
+              <p class="harga">Rp8K</p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <button class="btn">Order Now</button>
+            </div>
+            <div class="box">
+              <img src="img/menu9.jpg" alt="menu1" />
+              <h2>Spanza</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta impedit voluptatum totam veritatis deleniti aut.</p>
+              <p class="harga">Rp18K</p>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <button class="btn">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="aboutContainer">
+          <img src="img/img4.png" alt="img4" />
+          <div class="aboutSideContent">
+            <h1><span>About </span>Us</h1>
+            <h2>Why Choose us?</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, nobis dolorum? Nostrum dolor, quas omnis enim dolorum itaque, voluptate est quae iusto placeat neque adipisci quisquam cupiditate fugit ducimus, nesciunt
+              consequatur ea! Voluptas ullam accusantium adipisci rerum voluptatibus, corporis, nemo eius eos reiciendis commodi culpa libero debitis suscipit quia impedit!
+            </p>
+            <button class="btn">Order Now</button>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="contactContainer">
+          <h1><span>Contact</span> Us</h1>
+          <div class="contactContent">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1976.516023640199!2d110.39179686320338!3d-7.786426976990626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59ff59e1d4ed%3A0x69a96876cb08eb86!2sSebelas%20Coffee%20Sapen!5e0!3m2!1sen!2sid!4v1676989715193!5m2!1sen!2sid"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="maps"
+            ></iframe>
+            <form action="">
+              <div class="kotakInput">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="nama" placeholder="Nama" />
+              </div>
+              <div class="kotakInput">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" placeholder="Email" />
+              </div>
+              <div class="kotakInput">
+                <i class="fa-solid fa-phone"></i>
+                <input type="text" id="noHp" placeholder="No.Telepon" />
+              </div>
+              <button type="submit" class="btn">Order Now</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <p>Created by <span>Zildan Pandaru.</span> | <i class="fa-regular fa-copyright"></i> 2023</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
